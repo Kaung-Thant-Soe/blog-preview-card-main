@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+/* dark mode user-agent-styles */
+
+html {
+    color-scheme: dark light;
+    user-select: none;
+    overflow: hidden;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+p {
+    font-size: 16px;
+}
+:root {
+    ---White: hsl(0, 0%, 100%);
+    ---Grey: hsl(0, 0%, 50%);
+    ---Black: hsl(0, 0%, 7%);
+    ---Yellow: hsl(47, 88%, 63%);
+}
+body {
+    background-color: var(---Yellow);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    flex-direction: column;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(---Black);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.container {
+    background-color: white;
+    width: 340px;
+    height: 70%;
+    border-radius: 20px;
+    border: 2px solid var(---Black);
+    box-shadow: 10px 15px var(---Black);
+    padding: 18px;
+}
+.image {
+    margin-bottom: 18px;
+}
+.image img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+header {
+    width: 80px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 15px;
+    background-color: var(---Yellow);
+    border-radius: 3px;
+}
+.learn {
+    color: var(---Black);
+    font-weight: 800;
+    font-size: 13px;
+}
+.relears-date {
+    color: var(---Black);
+    font-size: 11px;
+    margin-top: 15px;
+}
+h1 {
+    color: var(---Black);
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+h1:hover {
+    color: var(---Yellow);
+}
+.intro {
+    color: var(---Grey);
+    font-size: 13px;
+    line-height: 20px;
+}
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer img {
+    width: 40px;
+}
+span {
+    font-weight: 800;
+    color: var(---Black);
+    font-size: 14px;
+    margin-left: 10px;
+}
