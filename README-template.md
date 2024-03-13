@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Github](https://your-solution-url.com)
--   Live Site URL: [Netlify](https://your-live-site-url.com)
+-   Solution URL: [Github](https://github.com/Kaung-Thant-Soe/blog-preview-card-main)
+-   Live Site URL: [Netlify](https://lambent-kelpie-96b83d.netlify.app/)
 
 ## My process
 
